@@ -1698,7 +1698,7 @@ pre .javascript .function {
   width: 4px;
   height: 4px;
   border-radius: 50%;
-  background: #ffff57;
+  background: #01213b;
 }
 .links-of-blogroll {
   font-size: 13px;
@@ -2249,6 +2249,11 @@ pre .javascript .function {
 }
 .use-motion .post {
   opacity: 0;
+  margin-bottom: 100px;
+  padding: 25px;
+  -webkit-box-shadow: 0 0 14px #cacbcb;
+  -moz-box-shadow: 0 0 14px #cacbcc;
+  background: #fff;
 }
 .page-archive .archive-page-counter {
   position: relative;
