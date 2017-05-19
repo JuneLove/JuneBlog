@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://junemzs.com/"/>
-  <updated>2017-05-18T12:37:09.750Z</updated>
+  <updated>2017-05-19T07:10:28.613Z</updated>
   <id>http://junemzs.com/</id>
   
   <author>
@@ -17,10 +17,10 @@
   
   <entry>
     <title>CSS 实现标题单行居中，多行左对齐</title>
-    <link href="http://junemzs.com/2017/05/18/hello-world/"/>
-    <id>http://junemzs.com/2017/05/18/hello-world/</id>
-    <published>2017-05-18T12:37:09.750Z</published>
-    <updated>2017-05-18T12:37:09.750Z</updated>
+    <link href="http://junemzs.com/2017/05/19/CSS-%E5%AE%9E%E7%8E%B0%E6%A0%87%E9%A2%98%E5%8D%95%E8%A1%8C%E5%B1%85%E4%B8%AD%EF%BC%8C%E5%A4%9A%E8%A1%8C%E5%B7%A6%E5%AF%B9%E9%BD%90/"/>
+    <id>http://junemzs.com/2017/05/19/CSS-实现标题单行居中，多行左对齐/</id>
+    <published>2017-05-19T07:08:40.000Z</published>
+    <updated>2017-05-19T07:10:28.613Z</updated>
     
     <content type="html"><![CDATA[<h2 id="纯CSS实现文字一行居中，多行左对齐的方法"><a href="#纯CSS实现文字一行居中，多行左对齐的方法" class="headerlink" title="纯CSS实现文字一行居中，多行左对齐的方法"></a>纯CSS实现文字一行居中，多行左对齐的方法</h2><p>其实这种需求还是蛮平常的。一般主要表现在一些新闻新详情页面（新闻头条App）的title基本上都使用这种效果。这种效果可以通过JS实现或者通过CSS实现，目前主要介绍的是使用CSS来实现该效果。</p>
 <h2 id="CSS实现方法"><a href="#CSS实现方法" class="headerlink" title="CSS实现方法"></a>CSS实现方法</h2><p>如何使用css实现文字一行居中，多行左对齐？<br>想要实现的效果为：<br>未知文字长度，当文字长度小于盒子宽度，也就是一行时，文字居中。<br>当文字长度大于盒子的宽度，会自动换行，成为多行文字，此时文字左对齐。<br><img src="http://img.blog.csdn.net/20151112120057916" alt="实现效果"></p>
@@ -39,6 +39,8 @@
     
     </summary>
     
+    
+      <category term="css" scheme="http://junemzs.com/tags/css/"/>
     
   </entry>
   

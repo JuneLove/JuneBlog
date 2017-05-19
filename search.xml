@@ -2,7 +2,10 @@
 <search>
   <entry>
     <title><![CDATA[CSS 实现标题单行居中，多行左对齐]]></title>
-    <url>%2F2017%2F05%2F18%2Fhello-world%2F</url>
+    <url>%2F2017%2F05%2F19%2FCSS-%E5%AE%9E%E7%8E%B0%E6%A0%87%E9%A2%98%E5%8D%95%E8%A1%8C%E5%B1%85%E4%B8%AD%EF%BC%8C%E5%A4%9A%E8%A1%8C%E5%B7%A6%E5%AF%B9%E9%BD%90%2F</url>
     <content type="text"><![CDATA[纯CSS实现文字一行居中，多行左对齐的方法其实这种需求还是蛮平常的。一般主要表现在一些新闻新详情页面（新闻头条App）的title基本上都使用这种效果。这种效果可以通过JS实现或者通过CSS实现，目前主要介绍的是使用CSS来实现该效果。 CSS实现方法如何使用css实现文字一行居中，多行左对齐？想要实现的效果为：未知文字长度，当文字长度小于盒子宽度，也就是一行时，文字居中。当文字长度大于盒子的宽度，会自动换行，成为多行文字，此时文字左对齐。 实现的思路 利用行内元素的特性 外层元素居中对齐，内层元素为行内块级元素（inline-block），此刻内层元素就居中 内层元素设置为左对齐，当文字宽度与外层元素宽度一致时，内层元素就会看到左对齐的效果 12345678910111213&lt;div class="outer"&gt; &lt;p class="inner"&gt;标题单行居中，多行左对齐&lt;/p&gt;&lt;/div&gt;&lt;style&gt; .outer &#123; text-align: center; &#125; inner &#123; display: inline-block; text-align: left; &#125;&lt;/style&gt; 总结&#160; &#160; &#160; &#160;实现这个小功能的方法很多，以上我是列举出，实现的最简单的方法，其实也可以通过图层遮盖。这个方法思路挺新颖的，大家可以去尝试实现。主要的弊端是，代码量比较多，并不推荐使用。]]></content>
+      <tags>
+        <tag>css</tag>
+      </tags>
   </entry>
 </search>
