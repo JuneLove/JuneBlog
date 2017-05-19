@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>JuneMzs’s Blog</title>
+  <subtitle>Every will be better, FE-程序猿, 摄影爱好者</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://junemzs.com/"/>
+  <updated>2017-05-18T12:37:09.750Z</updated>
+  <id>http://junemzs.com/</id>
+  
+  <author>
+    <name>June</name>
+    <email>JuneMzs@163.com</email>
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>CSS 实现标题单行居中，多行左对齐</title>
+    <link href="http://junemzs.com/2017/05/18/hello-world/"/>
+    <id>http://junemzs.com/2017/05/18/hello-world/</id>
+    <published>2017-05-18T12:37:09.750Z</published>
+    <updated>2017-05-18T12:37:09.750Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="纯CSS实现文字一行居中，多行左对齐的方法"><a href="#纯CSS实现文字一行居中，多行左对齐的方法" class="headerlink" title="纯CSS实现文字一行居中，多行左对齐的方法"></a>纯CSS实现文字一行居中，多行左对齐的方法</h2><p>其实这种需求还是蛮平常的。一般主要表现在一些新闻新详情页面（新闻头条App）的title基本上都使用这种效果。这种效果可以通过JS实现或者通过CSS实现，目前主要介绍的是使用CSS来实现该效果。</p>
+<h2 id="CSS实现方法"><a href="#CSS实现方法" class="headerlink" title="CSS实现方法"></a>CSS实现方法</h2><p>如何使用css实现文字一行居中，多行左对齐？<br>想要实现的效果为：<br>未知文字长度，当文字长度小于盒子宽度，也就是一行时，文字居中。<br>当文字长度大于盒子的宽度，会自动换行，成为多行文字，此时文字左对齐。<br><img src="http://img.blog.csdn.net/20151112120057916" alt="实现效果"></p>
+<h3 id="实现的思路"><a href="#实现的思路" class="headerlink" title="实现的思路"></a>实现的思路</h3><ol>
+<li>利用行内元素的特性</li>
+<li>外层元素居中对齐，内层元素为行内块级元素（inline-block），此刻内层元素就居中</li>
+<li>内层元素设置为左对齐，当文字宽度与外层元素宽度一致时，内层元素就会看到左对齐的效果</li>
+</ol>
+<figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div></pre></td><td class="code"><pre><div class="line">&lt;div class="outer"&gt;</div><div class="line">  &lt;p class="inner"&gt;标题单行居中，多行左对齐&lt;/p&gt;</div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;style&gt;</div><div class="line">  .outer &#123;</div><div class="line">    text-align: center;</div><div class="line">  &#125;</div><div class="line">  inner &#123;</div><div class="line">    display: inline-block;</div><div class="line">    text-align: left;</div><div class="line">  &#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>
+<h3 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h3><p>&#160; &#160; &#160; &#160;实现这个小功能的方法很多，以上我是列举出，实现的最简单的方法，其实也可以通过图层遮盖。这个方法思路挺新颖的，大家可以去尝试实现。主要的弊端是，代码量比较多，并不推荐使用。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;纯CSS实现文字一行居中，多行左对齐的方法&quot;&gt;&lt;a href=&quot;#纯CSS实现文字一行居中，多行左对齐的方法&quot; class=&quot;headerlink&quot; title=&quot;纯CSS实现文字一行居中，多行左对齐的方法&quot;&gt;&lt;/a&gt;纯CSS实现文字一行居中，多行左对齐的方法&lt;/
+    
+    </summary>
+    
+    
+  </entry>
+  
+</feed>
