@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://junemzs.com/"/>
-  <updated>2017-05-19T07:10:28.613Z</updated>
+  <updated>2017-06-08T02:09:58.000Z</updated>
   <id>http://junemzs.com/</id>
   
   <author>
@@ -14,6 +14,26 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>mobile-safari-overflow</title>
+    <link href="http://junemzs.com/2017/06/08/mobile-safari-overflow/"/>
+    <id>http://junemzs.com/2017/06/08/mobile-safari-overflow/</id>
+    <published>2017-06-08T02:04:31.000Z</published>
+    <updated>2017-06-08T02:09:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="移动端safari浏览器滚动失效-horizontal-scrolling-div-not-working-in-Safari"><a href="#移动端safari浏览器滚动失效-horizontal-scrolling-div-not-working-in-Safari" class="headerlink" title="移动端safari浏览器滚动失效 (horizontal scrolling div not working in Safari)"></a>移动端safari浏览器滚动失效 (horizontal scrolling div not working in Safari)</h2><h3 id="当您需要隐藏其中一个滚动条时，带有WebKit引擎的奇怪之处在于滚动"><a href="#当您需要隐藏其中一个滚动条时，带有WebKit引擎的奇怪之处在于滚动" class="headerlink" title="当您需要隐藏其中一个滚动条时，带有WebKit引擎的奇怪之处在于滚动"></a>当您需要隐藏其中一个滚动条时，带有WebKit引擎的奇怪之处在于滚动</h3><figure class="highlight"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div></pre></td><td class="code"><pre><div class="line">&lt;div id="galleryscroller"&gt;</div><div class="line">  &lt;table width="100%"  border="0" cellspacing="0" cellpadding="6"&gt;</div><div class="line">    &lt;tr align="left" valign="middle"&gt;</div><div class="line">    &lt;td&gt;&lt;a onclick="return showPic(this)" href="blahblah.jpg"&gt;&lt;img src="blahblah.jpg" alt="Events" width="76" height="100" border="0" /&gt;&lt;/a&gt;&lt;/td&gt;</div><div class="line">    &lt;td&gt;&lt;a onclick="return showPic(this)" href="blahblah.jpg"&gt;&lt;img src="blahblah.jpg" alt="Events" width="100" height="67" border="0" /&gt;&lt;/a&gt;&lt;/td&gt;</div><div class="line">    &lt;/tr&gt;</div><div class="line">  &lt;/table&gt;</div><div class="line">&lt;/div&gt;</div><div class="line"></div><div class="line">&lt;style&gt;</div><div class="line">  #galleryscroller &#123;</div><div class="line">    overflow: none;</div><div class="line">    overflow-x: auto;</div><div class="line">    display: block;</div><div class="line">    height: 138px;</div><div class="line">    width: 360px;</div><div class="line">  &#125;</div><div class="line">&lt;/style&gt;</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;h2 id=&quot;移动端safari浏览器滚动失效-horizontal-scrolling-div-not-working-in-Safari&quot;&gt;&lt;a href=&quot;#移动端safari浏览器滚动失效-horizontal-scrolling-div-not-working-in-
+    
+    </summary>
+    
+    
+      <category term="css" scheme="http://junemzs.com/tags/css/"/>
+    
+  </entry>
   
   <entry>
     <title>CSS 实现标题单行居中，多行左对齐</title>
